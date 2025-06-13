@@ -1,0 +1,121 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo izquierda, menú derecha */
+  align-items: center;
+  padding: 0 32px;
+  margin: 32px 0;
+  position: relative;
+  z-index: 999;
+}
+
+.navbar .logo {
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 3rem;
+    color: #fecc1b;
+}
+
+.menu-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2000;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.hamburger svg {
+
+    border-radius: 50%;
+    height: 2em;
+    transition: 
+        transform 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color;
+    padding: .5rem;
+}
+
+
+.hamburger svg:hover {
+    background-color: #333333; /* Color al pasar el mouse */
+}
+
+.line {
+  fill: none;
+  stroke: #d0d0d0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+              stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.menu-toggle:checked + .hamburger svg {
+  transform: rotate(-45deg);
+}
+
+.menu-toggle:checked + .hamburger svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+
+.menu-list {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  background: black;
+  color: #666666;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  margin: 0rem 32px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  border: 2px solid #333333;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.menu-list li {
+  padding: .5rem;
+  cursor: pointer;
+}
+.menu-list li:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.menu-list li:last-child {
+  border-bottom: none;
+}
+
+.menu-toggle:checked ~ .menu-list {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.menu-list .switch {
+  position: absolute;
+  right: -27%;
+  margin: 5px;
+}
+
+

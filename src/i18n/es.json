@@ -1,0 +1,10 @@
+{
+    "welcome": "Bienvenido, yo soy <span class=\"text_zero\">ACB</span> próximo a graduarme en <span class=\"text_one\">Ingeniería Informática</span> con formación como <span class=\"text_two\">Tecnólogo en Sistemas</span>",
+    "about_me":"Tengo <span class=\"text_three\">experiencia en desarrollo web y como analista programador</span>. Me especializo en el <span class=\"text_four\">diseño, implementación y optimización de soluciones tecnológicas</span>, combinando habilidades técnicas con pensamiento analítico. Me enfoco en la <span class=\"text_five\">resolución de problemas y mejora continua</span> en entornos de desarrollo de software.",
+    "button_cv": "Descargar CV",
+    "nav_me": "Sobre mí",
+    "nav_experience": "Experiencia",
+    "nav_projects": "Proyectos",
+    "nav_contact": "Contacto"
+}
+

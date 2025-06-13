@@ -1,0 +1,197 @@
+.container {
+    padding: 0 32px;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 40px;
+  font-size: 36px;
+  margin-top: 24px;
+}
+h1 .text_zero {
+  color: #fecc1b;
+  text-decoration: overline;
+  cursor: pointer;
+  
+}
+h1 .text_one {
+  color: #3defe9;
+}
+h1 .text_two {
+  color: #6bd968;
+}
+
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 31px;
+  color: rgb(200, 200, 200);
+  margin: 24px 0;
+  text-align: left;
+}
+p .text_three {
+  color: #fecc1b;
+}
+p .text_four {
+  color: #3defe9;
+}
+p .text_five {
+  color: #6bd968;
+}
+
+/*ICONOS ANIMACIONES*/
+/* From Uiverse.io by david-mohseni */ 
+.wrapper {
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  color: white;
+  position: relative;
+  background: black;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: white 2px solid;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #0a66c2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #181717;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #D14836;
+  color: #fff;
+}
+
+/*BOTON DOWNLOAD*/
+/* From Uiverse.io by ShrinilDhorda */ 
+.buttons {
+  width: 100%;
+}
+
+.buttons .button {
+  position: relative;
+  width: 100%;
+  height: 3.5rem;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: #1b6ef5;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra el contenido */
+  font-size: 1.3rem;
+}
+
+.buttons .button .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  transition: 0.4s ease-in-out;
+  position: absolute;  /* Para que se solape con el ícono */
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.buttons .svg {
+  position: absolute; /* Para superponerlo */
+  width: 2rem;
+  opacity: 0;
+  transform: translateY(-20px) rotate(30deg);
+  transition: 0.4s ease-in-out;
+  fill: rgb(255, 255, 255);
+}
+
+.buttons .button:hover {
+  background-color: #1557c2;
+}
+
+.buttons .button:hover .svg {
+  transform: translateY(0px) rotate(0deg);
+  opacity: 1;
+}
+
+.buttons .button:hover .text {
+  opacity: 0;
+}
+
+.buttons .button:active {
+  scale: 0.97;
+}
+
