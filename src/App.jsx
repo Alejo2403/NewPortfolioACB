@@ -27,7 +27,7 @@ function App() {
         </div>
 
         <div className="container_right">
-          <img src="../../public/img/avatar.png" alt="avatar" className="avatar"/>
+          <img src="/img/avatar.png" alt="avatar" className="avatar"/>
 
           <div className="buttons">
             <SocialIcons/>

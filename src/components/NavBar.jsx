@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
     <div className="navbar">
-      <img src="../../public/img/logo.png" alt="Logo" className="logo"/>
+      <img src="img/logo.png" alt="Logo" className="logo"/>
 
       <div className="menu_container">
         <input type="checkbox" id="menu-toggle" className="menu-toggle" />
