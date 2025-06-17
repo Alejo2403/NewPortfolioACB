@@ -1,6 +1,11 @@
 * body{
-    padding: 0;
+    padding: 0 32px;
     margin: 0;
     font-family: "Inter", sans-serif;
     background-color: black;
+}
+/*Borrar el focus de los botones en mobile*/
+button, a, input {
+  outline: none;
+  -webkit-tap-highlight-color: transparent; /* Para quitar el cuadrado azul en Android/Chrome */
 }

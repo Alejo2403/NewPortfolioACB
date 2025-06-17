@@ -1,5 +1,9 @@
-.container {
-    padding: 0 32px;
+.logo {
+  max-width: 8rem;
+}
+
+.avatar {
+  display: none;
 }
 
 h1 {
@@ -12,7 +16,6 @@ h1 {
 }
 h1 .text_zero {
   color: #fecc1b;
-  text-decoration: overline;
   cursor: pointer;
   
 }
@@ -193,5 +196,37 @@ p .text_five {
 
 .buttons .button:active {
   scale: 0.97;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  .buttons .button {
+    margin: 0 auto;
+    height: 3.5rem;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .avatar {
+    display: block;
+    width: 20rem;
+    margin: auto;
+  }
+
+  .container_right {
+    padding: 5rem;
+    width: 50%;
+  }
+
+  .container_left {
+    padding: 5rem;
+    width: 50%;
+  }
 }
 

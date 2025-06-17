@@ -1,5 +1,5 @@
 {
-    "welcome": "Welcome, I'm <span class=\"text_zero\">ACB</span>, soon to graduate with a <span class=\"text_one\">Software Engineering degree</span> and background as a <span class=\"text_two\">Systems Technologist</span>",
+    "welcome": "Welcome, I'm <span class=\"text_zero\">Alejandro Cardona Barrera</span>, soon to graduate with a <span class=\"text_one\">Software Engineering degree</span> and background as a <span class=\"text_two\">Systems Technologist</span>",
     "about_me": "I have <span class=\"text_three\">experience in web development and program analysis</span>. I specialize in <span class=\"text_four\">designing, implementing and optimizing technological solutions</span>, combining technical skills with analytical thinking. I focus on <span class=\"text_five\">problem solving and continuous improvement</span> in software development environments.",
     "button_cv": "Download CV",
     "nav_me": "About Me",

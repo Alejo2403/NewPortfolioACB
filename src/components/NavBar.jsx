@@ -19,9 +19,7 @@ const NavBar = () => {
 
   return (
     <div className="navbar">
-      <div className="logo">
-        ACB
-      </div>
+      <img src="../../public/img/logo.png" alt="Logo" className="logo"/>
 
       <div className="menu_container">
         <input type="checkbox" id="menu-toggle" className="menu-toggle" />
@@ -88,7 +86,7 @@ const StyledWrapper = styled.div`
   }
 
   .slider:before {
-    content: "EN";
+    content: "Es";
     box-sizing: border-box;
     height: 20px;
     width: 20px;
@@ -112,6 +110,6 @@ const StyledWrapper = styled.div`
   }
 
   .toggle:checked + .slider:before {
-    content: "ES";
+    content: "En";
     transform: translateX(24px);
   }`;
