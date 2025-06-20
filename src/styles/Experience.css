@@ -1,0 +1,26 @@
+/* From Uiverse.io by SivarajRathinam */ 
+.container_experiences {
+  background-image: url('../../public/img/fondoExp.png');
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat;
+  padding: 20px 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_experiences h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  font-style: italic;
+  text-shadow: 4px 4px 16px rgb(0, 0, 0);
+}
+
+.experiences-section  {
+  display: flex;
+  flex-direction: column;
+}

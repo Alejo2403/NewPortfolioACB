@@ -1,0 +1,73 @@
+.experience {
+  background: black;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.experiences {
+  padding: 20px 0;
+}
+
+.experience summary {
+  cursor: pointer;
+  list-style: none;
+  outline: none;
+}
+
+.summary-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.summary-content h3 {
+  font-size: 1.2rem;
+  color: #fecc1b;
+  margin: 0;
+}
+
+.summary-content p {
+  margin: 0;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.summary-content .title_exp {
+  margin: 10px 0;
+}
+
+.summary-content .position_exp {
+  color: white;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  color: #fecc1b;
+}
+
+.arrow.rotate {
+  transform: rotate(180deg);
+}
+
+.experience-details {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.experience[open] .experience-details {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.experience.closing .experience-details {
+  max-height: 0 !important;
+  opacity: 0 !important;
+}

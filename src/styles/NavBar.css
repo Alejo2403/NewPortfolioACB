@@ -2,17 +2,18 @@
   display: flex;
   justify-content: space-between; /* Logo izquierda, menú derecha */
   align-items: center;
-  margin: 32px 0;
+  margin: 32px;
+  margin-bottom: 0;
   position: relative;
   z-index: 999;
 }
 
 .navbar .logo {
-    font-weight: 900;
-    font-style: italic;
-    text-decoration: underline;
-    font-size: 3rem;
-    color: #fecc1b;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 3rem;
+  color: #fecc1b;
 }
 
 .menu-container {
@@ -118,7 +119,12 @@
 }
 
 /*PANTALLAS GRANDES*/
-@media (min-width: 768px) { 
+@media (min-width: 1098px) { 
+  .navbar {
+    margin: 40px 80px 0 80px;
+    margin-bottom: 0;
+  }
+
   .hamburger {
     display: none;
   }

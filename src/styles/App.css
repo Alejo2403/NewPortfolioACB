@@ -1,3 +1,7 @@
+.container_main {
+  margin: 32px;
+}
+
 .logo {
   max-width: 8rem;
 }
@@ -198,7 +202,7 @@ p .text_five {
   scale: 0.97;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1098px) {
   h1 {
     font-size: 48px;
     line-height: 50px;
@@ -220,12 +224,12 @@ p .text_five {
   }
 
   .container_right {
-    padding: 5rem;
+    padding: 3rem;
     width: 50%;
   }
 
   .container_left {
-    padding: 5rem;
+    padding: 3rem;
     width: 50%;
   }
 }
