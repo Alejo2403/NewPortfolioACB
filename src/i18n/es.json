@@ -6,7 +6,20 @@
     "nav_experience": "Experiencia",
     "nav_projects": "Proyectos",
     "nav_contact": "Contacto",
-    "exp_job": "Practicante de Desarrollo de Web",
-    "exp_job2": "Analista programador"
+    "exp_job": "Aprendiz Dev Web",
+    "exp_job2": "Analista programador",
+    "desc_exp": "Durante mi pasantía en ManpowerGroup participé en proyectos clave relacionados con desarrollo web y analítica de datos. Acepté retos fuera de mi zona de confort, aprendiendo nuevas tecnologías por cuenta propia para aportar soluciones reales al equipo.",
+    "title_exp": "Logros destacados:",
+    "gain_1": "Migración de bases de datos (tablas y procedimientos almacenados) a PeopleNet.",
+    "gain_2": "Adaptación de aplicaciones web a una nueva API sin afectar el funcionamiento.",
+    "gain_3": "Desarrollo del login e interfaz de un aplicativo utilizando inteligencia artificial para transformar lenguaje natural en búsquedas semánticas.",
+    "gain_4": "Creación de un aplicativo interno (PIP) para procesos internos de gestión.",
+    "gain_5": "Apoyo en parametrizaciones del sistema Novasoft.",
+    "desc_exp_2": "Después de finalizar mis prácticas, la empresa volvió a contactarme para continuar trabajando como prestador de servicios por horas. Esta colaboración se extendió durante seis meses, donde desempeñé funciones como analista programador, brindando soporte a diferentes áreas de la organización.",
+    "gain_2_1": "Migración de bases de datos (tablas y procedimientos almacenados) a PeopleNet.",
+    "gain_2_2": "Adaptación de aplicaciones web a una nueva API sin afectar el funcionamiento.",
+    "gain_2_3": "Desarrollo del login e interfaz de un aplicativo utilizando inteligencia artificial para transformar lenguaje natural en búsquedas semánticas.",
+    "gain_2_4": "Creación de un aplicativo interno (PIP) para procesos internos de gestión.",
+    "gain_2_5": "Apoyo en parametrizaciones del sistema Novasoft."
 }
 

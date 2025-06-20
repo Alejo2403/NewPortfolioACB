@@ -25,31 +25,30 @@
 }
 
 .summary-content h3 {
-  font-size: 1.2rem;
+  font-weight: 900;
+  font-size: 1.5rem;
   color: #fecc1b;
-  margin: 0;
-}
-
-.summary-content p {
-  margin: 0;
-  color: #aaa;
-  font-size: 0.9rem;
-}
-
-.summary-content .title_exp {
   margin: 10px 0;
 }
 
+.summary-content .date_exp {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #c8c8c8;
+  margin: 0;
+}
+
 .summary-content .position_exp {
-  color: white;
-  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #c8c8c8;
   padding: 0;
   margin: 0;
 }
 
 .arrow {
-  transition: transform 0.3s ease;
-  color: #fecc1b;
+  transition: transform 1s ease;
+  color: white;
 }
 
 .arrow.rotate {
@@ -59,15 +58,34 @@
 .experience-details {
   max-height: 0;
   opacity: 0;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition: max-height 1s ease, opacity .5s ease;
 }
 
 .experience[open] .experience-details {
-  max-height: 500px;
+  max-height: 100%;
   opacity: 1;
 }
 
 .experience.closing .experience-details {
   max-height: 0 !important;
   opacity: 0 !important;
+}
+
+.experience-details .description_exp {
+  font-size: .9rem;
+  line-height: 1.5rem;
+  color: white;
+  margin: .5rem 0;
+}
+.experience-details .title_gains {
+  font-size: 1rem;
+  color: #fecc1b;
+}
+.experience-details .list_gains .gain {
+  font-size: .9rem;
+  line-height: 1.3rem;
+}
+ul li::marker {
+  color: #fecc1b;
+  font-size: 1rem;
 }

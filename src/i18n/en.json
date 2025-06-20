@@ -7,5 +7,12 @@
     "nav_projects": "Projects",
     "nav_contact": "Contact",
     "exp_job": "Web Development Intern",
-    "exp_job2": "Programmer Analyst"
+    "exp_job2": "Programmer Analyst",
+    "desc_exp": "During my internship at ManpowerGroup, I actively contributed to key projects in web development and data analytics. I took on challenges outside of my comfort zone, learning new technologies on my own to provide real value to the team.",
+    "title_exp": "Key achievements:",
+    "gain_1": "Migrated databases (tables and stored procedures) to PeopleNet.",
+    "gain_2": "Adapted web applications to a new API without affecting their functionality.",
+    "gain_3": "Developed the login and interface of an internal tool that uses artificial intelligence to transform natural language into semantic search queries.",
+    "gain_4": "Built an internal application (PIP) for management processes.",
+    "gain_5": "Supported parameter configurations in Novasoft systems."
 }

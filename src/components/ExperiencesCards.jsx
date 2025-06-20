@@ -1,8 +1,13 @@
+import { useTranslation } from "react-i18next";
 import {useRef, useState} from 'react'
-import "../styles/ExperiencesCards.css"
 
-const ExperiencesCards = ({title, date, position, description}) => {
+import "../styles/ExperiencesCards.css"
+import "../i18n/config";
+
+const ExperiencesCards = ({title, date, position, description, gain, gainTwo, gainThree, gainFour}) => {
   
+    const { t } = useTranslation();
+
     const detailsRef = useRef(null);
     const [ isOpen, setIsOpen ] = useState(false); 
   
@@ -37,8 +42,8 @@ const ExperiencesCards = ({title, date, position, description}) => {
                     className={`arrow ${isOpen ? "rotate" : ""}`}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
+                    width="26"
+                    height="26"
                 >
                     <path
                     fill="currentColor"
@@ -48,7 +53,18 @@ const ExperiencesCards = ({title, date, position, description}) => {
                 </div>
             </summary>
             <div className="experience-details">
-                <p>{description}</p>
+                <p className='description_exp'>
+                    {description}
+                </p>
+
+                <h4 className='title_gains'>{t("title_exp")}</h4>
+                <ul className='list_gains'>
+                    <li className='gain'>{t("gain_1")}</li>
+                    <li className='gain'>{t("gain_2")}</li>
+                    <li className='gain'>{t("gain_3")}</li>
+                    <li className='gain'>{t("gain_4")}</li>
+                    <li className='gain'>{t("gain_5")}</li>
+                </ul>
             </div>
         </details>
         </div>
