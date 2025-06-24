@@ -10,9 +10,16 @@
     "exp_job2": "Programmer Analyst",
     "desc_exp": "During my internship at ManpowerGroup, I actively contributed to key projects in web development and data analytics. I took on challenges outside of my comfort zone, learning new technologies on my own to provide real value to the team.",
     "title_exp": "Key achievements:",
+    "section_exp": "Work Experience",
     "gain_1": "Migrated databases (tables and stored procedures) to PeopleNet.",
     "gain_2": "Adapted web applications to a new API without affecting their functionality.",
     "gain_3": "Developed the login and interface of an internal tool that uses artificial intelligence to transform natural language into semantic search queries.",
     "gain_4": "Built an internal application (PIP) for management processes.",
-    "gain_5": "Supported parameter configurations in Novasoft systems."
+    "gain_5": "Supported parameter configurations in Novasoft systems.",
+    "desc_exp_2": "After completing my internship, the company contacted me again to continue working as a part-time service provider. This collaboration lasted six more months, during which I worked as a programmer analyst, providing support to different areas of the organization.",
+    "gain_2_1": "Case management and tracking using Aranda to optimize internal processes.",
+    "gain_2_2": "Identification and correction of stored procedures (SP) and tables that generated duplicate or inconsistent data.",
+    "gain_2_3": "Support to the development team in troubleshooting SQL queries and stored procedures.",
+    "gain_2_4": "Data replication to ensure availability and proper functioning of applications.",
+    "gain_2_5": "Creation of monitoring manuals and documentation of critical processes."
 }

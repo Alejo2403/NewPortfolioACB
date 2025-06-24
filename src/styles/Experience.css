@@ -24,3 +24,16 @@
   display: flex;
   flex-direction: column;
 }
+
+
+@media (min-width: 1098px) {
+  .container_experiences h2 {
+    font-size: 36px;
+  }
+
+  .experiences-section  {
+    padding: 0 48px;
+    flex-direction: row;
+    gap: 3rem;
+  }
+}

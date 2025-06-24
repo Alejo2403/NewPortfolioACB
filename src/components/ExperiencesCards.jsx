@@ -4,7 +4,7 @@ import {useRef, useState} from 'react'
 import "../styles/ExperiencesCards.css"
 import "../i18n/config";
 
-const ExperiencesCards = ({title, date, position, description, gain, gainTwo, gainThree, gainFour}) => {
+const ExperiencesCards = ({title, date, position, description, gain, gainTwo, gainThree, gainFour, gainFive}) => {
   
     const { t } = useTranslation();
 
@@ -59,11 +59,11 @@ const ExperiencesCards = ({title, date, position, description, gain, gainTwo, ga
 
                 <h4 className='title_gains'>{t("title_exp")}</h4>
                 <ul className='list_gains'>
-                    <li className='gain'>{t("gain_1")}</li>
-                    <li className='gain'>{t("gain_2")}</li>
-                    <li className='gain'>{t("gain_3")}</li>
-                    <li className='gain'>{t("gain_4")}</li>
-                    <li className='gain'>{t("gain_5")}</li>
+                    <li className='gain'>{gain}</li>
+                    <li className='gain'>{gainTwo}</li>
+                    <li className='gain'>{gainThree}</li>
+                    <li className='gain'>{gainFour}</li>
+                    <li className='gain'>{gainFive}</li>
                 </ul>
             </div>
         </details>

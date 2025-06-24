@@ -26,13 +26,13 @@
 
 .summary-content h3 {
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fecc1b;
   margin: 10px 0;
 }
 
 .summary-content .date_exp {
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 600;
   color: #c8c8c8;
   margin: 0;
@@ -40,7 +40,7 @@
 
 .summary-content .position_exp {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: .8rem;
   color: #c8c8c8;
   padding: 0;
   margin: 0;
@@ -88,4 +88,11 @@
 ul li::marker {
   color: #fecc1b;
   font-size: 1rem;
+}
+
+
+@media (min-width: 1098px) {
+  .experiences {
+    width: 50%;
+  }
 }
