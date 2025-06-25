@@ -1,5 +1,5 @@
 {
-    "welcome": "Hola <span class=\"wave\">👋</span>, yo soy <span class=\"text_zero tooltip\">Alejandro Cardona Barrera</span> próximo a graduarme en <span class=\"text_one\">Ingeniería Informática</span> con formación como <span class=\"text_two\">Tecnólogo en Sistemas</span>",
+    "welcome": "Hola <span class=\"wave\">👋</span> yo soy <span class=\"text_zero tooltip\">Alejandro Cardona Barrera</span> próximo a graduarme en <span class=\"text_one\">Ingeniería Informática</span> con formación como <span class=\"text_two\">Tecnólogo en Sistemas</span>",
     "about_me":"Tengo <span class=\"text_three\">experiencia en desarrollo web y como analista programador</span>. Me especializo en el <span class=\"text_four\">diseño, implementación y optimización de soluciones tecnológicas</span>, combinando habilidades técnicas con pensamiento analítico. Me enfoco en la <span class=\"text_five\">resolución de problemas y mejora continua</span> en entornos de desarrollo de software.",
     "button_cv": "Descargar CV",
     "nav_me": "Sobre mí",
@@ -21,6 +21,13 @@
     "gain_2_2": "Identificación y corrección de procedimientos almacenados (SP) y tablas que generaban datos duplicados o inconsistentes.",
     "gain_2_3": "Soporte al equipo de desarrollo en la resolución de problemas relacionados con consultas SQL y procedimientos almacenados.",
     "gain_2_4": "Replicación de datos para garantizar disponibilidad y correcto funcionamiento de los aplicativos.",
-    "gain_2_5": "Elaboración de manuales de monitoreo y documentación de procesos críticos."
+    "gain_2_5": "Elaboración de manuales de monitoreo y documentación de procesos críticos.",
+    "level_adv": "Avanzado",
+    "level_int": "Intermedio",
+    "level_bas": "Basico",
+    "title_skill_1": "🧠 Lenguajes y Frameworks Principales",
+    "title_skill_2": "🔧 Frameworks y Herramientas Adicionales",
+    "title_skill_3": "📊 Bases de Datos y Análisis",
+    "title_skill_4": "⚙️ Otras Herramientas"
 }
 

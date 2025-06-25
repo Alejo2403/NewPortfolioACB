@@ -1,5 +1,5 @@
 {
-    "welcome": "Hello <span class=\"wave\">👋</span>, I'm <span class=\"text_zero\">Alejandro Cardona Barrera</span>, soon to graduate with a <span class=\"text_one\">Software Engineering degree</span> and background as a <span class=\"text_two\">Systems Technologist</span>",
+    "welcome": "Hello <span class=\"wave\">👋</span> I'm <span class=\"text_zero\">Alejandro Cardona Barrera</span>, soon to graduate with a <span class=\"text_one\">Software Engineering degree</span> and background as a <span class=\"text_two\">Systems Technologist</span>",
     "about_me": "I have <span class=\"text_three\">experience in web development and program analysis</span>. I specialize in <span class=\"text_four\">designing, implementing and optimizing technological solutions</span>, combining technical skills with analytical thinking. I focus on <span class=\"text_five\">problem solving and continuous improvement</span> in software development environments.",
     "button_cv": "Download CV",
     "nav_me": "About Me",
@@ -21,5 +21,12 @@
     "gain_2_2": "Identification and correction of stored procedures (SP) and tables that generated duplicate or inconsistent data.",
     "gain_2_3": "Support to the development team in troubleshooting SQL queries and stored procedures.",
     "gain_2_4": "Data replication to ensure availability and proper functioning of applications.",
-    "gain_2_5": "Creation of monitoring manuals and documentation of critical processes."
+    "gain_2_5": "Creation of monitoring manuals and documentation of critical processes.",
+    "level_adv": "Advanced",
+    "level_int": "Intermediate",
+    "level_bas": "Begginer",
+    "title_skill_1": "🧠 Main Languages and Frameworks",
+    "title_skill_2": "🔧 Additional Frameworks and Tools",
+    "title_skill_3": "📊 Databases and Data Analysis",
+    "title_skill_4": "⚙️ Other Tools"
 }
