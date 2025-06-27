@@ -15,8 +15,9 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: black;
-  text-shadow: 4px 4px 16px rgb(92, 92, 92);
+  text-shadow: 4px 4px 16px rgb(0, 0, 0);
   text-align: center;
+  letter-spacing: -0.1px;
 }
 
 .experiences-section  {

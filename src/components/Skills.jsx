@@ -55,10 +55,16 @@ const Skills = () => {
   return (
     <section className="container_skills">
       <h2 className="title_skills">Skills</h2>
-      <SkillGroup title={t("title_skill_1")} list={skills.principales} />
-      <SkillGroup title={t("title_skill_2")} list={skills.adicionales} />
-      <SkillGroup title={t("title_skill_3")} list={skills.datos} />
-      <SkillGroup title={t("title_skill_4")} list={skills.herramientas} />
+      <div className="skills_section">
+        <div className="skills_right">
+          <SkillGroup title={t("title_skill_1")} list={skills.principales} />
+          <SkillGroup title={t("title_skill_2")} list={skills.adicionales} />
+        </div>
+        <div className="skills_left">
+          <SkillGroup title={t("title_skill_3")} list={skills.datos} />
+          <SkillGroup title={t("title_skill_4")} list={skills.herramientas} />
+        </div>
+      </div>
     </section>
   );
 }

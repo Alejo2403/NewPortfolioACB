@@ -14,6 +14,10 @@
     color: white;
 }
 
+.skill_group {
+  margin: 1rem 0;
+}
+
 .skills_list {
   list-style: none;
   padding: 5px 0;
@@ -68,4 +72,24 @@
   font-size: 0.8rem;
   margin-top: 0.3rem;
   color: #ddd;
+}
+
+@media (min-width: 1098px) {
+  .skills_section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .skills_right,
+  .skills_left {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

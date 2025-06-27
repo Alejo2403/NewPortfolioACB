@@ -7,6 +7,7 @@ import App from './App.jsx'
 import NavBar from './components/NavBar.jsx'
 import Experiences from './components/Experiences.jsx'
 import Skills from './components/Skills.jsx'
+import Projects from './components/Projects.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <App />
     <Experiences />
     <Skills />
+    <Projects />
   </StrictMode>,
 )
