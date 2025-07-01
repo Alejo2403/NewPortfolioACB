@@ -28,5 +28,12 @@
     "title_skill_1": "🧠 Main Languages and Frameworks",
     "title_skill_2": "🔧 Additional Frameworks and Tools",
     "title_skill_3": "📊 Databases and Data Analysis",
-    "title_skill_4": "⚙️ Other Tools"
+    "title_skill_4": "⚙️ Other Tools",
+    "t_project_1": "Veterinary System",
+    "t_project_2": "Cryptocurrency Calculator",
+    "t_project_3": "CRM with IndexedDB",
+    "t_project_4": "Car Insurance Quoter",
+    "t_project_5": "Local Storage Tests",
+    "b_see_p": "View Project"
+
 }

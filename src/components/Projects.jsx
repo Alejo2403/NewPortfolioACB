@@ -1,69 +1,134 @@
+import { t } from "i18next";
 import "../styles/Projects.css"
-
-const projects = [
-    {
-        name: "Seguimiento Veterinaria",
-        image: "../img/..",
-        description: "",
-        link: "https://meek-cendol-496869.netlify.app/",
-        techs: [
-            { 
-                icon: "react",
-                comp:"original"
-            }
-        ]
-    },
-    {
-        name: "Cotizador de Cryptomonedas",
-        image: "../img/..",
-        description: "",
-        link: "https://keen-lichterman-71b8d5.netlify.app/",
-        techs: [
-            { 
-                icon: "react",
-                comp:"original"
-            }
-        ]
-    },
-    {
-        name: "CRM con INDEX-DB",
-        image: "../img/..",
-        description: "",
-        link: "https://musing-raman-49901f.netlify.app/",
-        techs: [
-            { 
-                icon: "react",
-                comp:"original"
-            }
-        ]
-    },
-    {
-        name: "Cotizador de Seguros de autos",
-        image: "../img/..",
-        description: "",
-        link: "https://reverent-mayer-23ed00.netlify.app/",
-        techs: [
-            { 
-                icon: "react",
-                comp:"original"
-            }
-        ]
-    },
-    {
-        name: "Pruebas de local Storage",
-        image: "../img/..",
-        description: "",
-        link: "https://determined-kalam-fdf323.netlify.app/",
-        techs: [
-            { 
-                icon: "react",
-                comp:"original"
-            }
-        ]
-    },
-]
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+
+    const { t } = useTranslation();
+    
+    const projects = [
+        {
+            name: t("t_project_1"),
+            image: "/img/p_one.png",
+            description: "",
+            link: "https://meek-cendol-496869.netlify.app/",
+            techs: [
+                { 
+                    icon: "react",
+                    comp:"original"
+                },
+                {
+                    icon: "html5",
+                    comp: "original"
+                },
+                {
+                    icon: "css3",
+                    comp: "original"
+                },
+                {
+                    icon: "javascript",
+                    comp: "original"
+                }
+            ]
+        },
+        {
+            name: t("t_project_2"),
+            image: "/img/p_two.png",
+            description: "",
+            link: "https://keen-lichterman-71b8d5.netlify.app/",
+            techs: [
+                { 
+                    icon: "react",
+                    comp:"original"
+                },
+                {
+                    icon: "html5",
+                    comp: "original"
+                },
+                {
+                    icon: "tailwindcss",
+                    comp: "original"
+                },
+                {
+                    icon: "javascript",
+                    comp: "original"
+                }
+            ]
+        },
+        {
+            name: t("t_project_3"),
+            image: "/img/p_three.png",
+            description: "",
+            link: "https://musing-raman-49901f.netlify.app/",
+            techs: [
+                { 
+                    icon: "react",
+                    comp:"original"
+                },
+                {
+                    icon: "html5",
+                    comp: "original"
+                },
+                {
+                    icon: "css3",
+                    comp: "original"
+                },
+                {
+                    icon: "typescript",
+                    comp: "original"
+                }
+            ]
+        },
+        {
+            name: t("t_project_4"),
+            image: "/img/p_four.png",
+            description: "",
+            link: "https://reverent-mayer-23ed00.netlify.app/",
+            techs: [
+                { 
+                    icon: "python",
+                    comp:"original"
+                },
+                {
+                    icon: "html5",
+                    comp: "original"
+                },
+                {
+                    icon: "bulma",
+                    comp: "plain"
+                },
+                {
+                    icon: "django",
+                    comp: "plain"
+                }
+            ]
+        },
+        {
+            name: t("t_project_5"),
+            image: "img/p_five.png",
+            description: "",
+            link: "https://determined-kalam-fdf323.netlify.app/",
+            techs: [
+                { 
+                    icon: "angular",
+                    comp:"original"
+                },
+                {
+                    icon: "html5",
+                    comp: "original"
+                },
+                {
+                    icon: "tailwindcss",
+                    comp: "original"
+                },
+                {
+                    icon: "typescript",
+                    comp: "plain"
+                }
+            ]
+        },
+    ]
+
     return (   
         <section className="projects_section">
         <h2>🚀 Proyectos</h2>
@@ -74,7 +139,7 @@ const Projects = () => {
                 <div className="project_content">
                     <h3>{project.name}</h3>
                     <p>{project.description}</p>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">🔗 Ver Proyecto</a>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">🔗 {t("b_see_p")}</a>
                     <div className="project_techs">
                         {project.techs.map((tech, idx) => (
                         <img

@@ -28,6 +28,12 @@
     "title_skill_1": "🧠 Lenguajes y Frameworks Principales",
     "title_skill_2": "🔧 Frameworks y Herramientas Adicionales",
     "title_skill_3": "📊 Bases de Datos y Análisis",
-    "title_skill_4": "⚙️ Otras Herramientas"
+    "title_skill_4": "⚙️ Otras Herramientas",
+    "t_project_1": "Seguimiento Veterinaria",
+    "t_project_2": "Cotizador de Criptomonedas",
+    "t_project_3": "CRM con IndexedDB",
+    "t_project_4": "Seguros de Autos",
+    "t_project_5": "Almacenamiento Local",
+    "b_see_p": "Ver Proyecto"
 }
 
