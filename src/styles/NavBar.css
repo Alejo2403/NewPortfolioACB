@@ -1,19 +1,29 @@
 .navbar {
-  display: flex;
-  justify-content: space-between; /* Logo izquierda, menú derecha */
-  align-items: center;
-  margin: 32px;
-  margin-bottom: 0;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+ul li a {
+  color: #808080;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+.navbar ul li a:hover {
+  color: white;
 }
 
 .navbar .logo {
-  font-weight: 900;
-  font-style: italic;
-  text-decoration: underline;
-  font-size: 3rem;
-  color: #fecc1b;
+  width: 10rem;
 }
 
 .menu-container {
@@ -88,7 +98,6 @@
   pointer-events: none;
   transform: translateY(-10px);
   transition: all 0.3s ease;
-
   font-weight: 700;
   font-size: 12px;
 }
@@ -121,8 +130,8 @@
 /*PANTALLAS GRANDES*/
 @media (min-width: 1098px) { 
   .navbar {
-    margin: 40px 80px 0 80px;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 15px 80px 15px 80px;
   }
 
   .hamburger {

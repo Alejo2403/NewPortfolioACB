@@ -8,7 +8,7 @@
   color: white;
   text-transform: uppercase;
   font-weight: 900;
-  text-shadow: 4px 4px 16px rgb(255, 255, 255);
+  text-shadow: 4px 4px 10px rgb(255, 255, 255);
 }
 .title_skill{
     color: white;
@@ -38,7 +38,7 @@
 }
 
 .skill_item:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   font-weight: 900;
 }
 

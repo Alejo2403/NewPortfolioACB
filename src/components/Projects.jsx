@@ -130,8 +130,8 @@ const Projects = () => {
     ]
 
     return (   
-        <section className="projects_section">
-        <h2>🚀 Proyectos</h2>
+        <section id="projects" className="projects_section">
+        <h2>🚀 {t("tiitle_pro")}</h2>
         <div className="projects_grid">
             {projects.map((project, index) => (
             <div className="project_card" key={index}>
@@ -139,7 +139,7 @@ const Projects = () => {
                 <div className="project_content">
                     <h3>{project.name}</h3>
                     <p>{project.description}</p>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">🔗 {t("b_see_p")}</a>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">🔗 <span className="see_project">{t("b_see_p")}</span></a>
                     <div className="project_techs">
                         {project.techs.map((tech, idx) => (
                         <img

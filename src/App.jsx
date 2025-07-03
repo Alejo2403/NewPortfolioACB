@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>  
-      <div className="container_main container">
+      <div id="about" className="container_main container">
 
         <div className="container_left">
           <h1

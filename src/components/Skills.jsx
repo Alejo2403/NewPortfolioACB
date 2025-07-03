@@ -54,7 +54,7 @@ const Skills = () => {
   
   return (
     <section className="container_skills">
-      <h2 className="title_skills">Skills</h2>
+      <h2 id="skills"  className="title_skills">🛠️Skills</h2>
       <div className="skills_section">
         <div className="skills_right">
           <SkillGroup title={t("title_skill_1")} list={skills.principales} />

@@ -13,11 +13,12 @@
   font-weight: 900;
   position: relative;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: black;
-  text-shadow: 4px 4px 16px rgb(0, 0, 0);
+  color: white;
+  text-shadow: 4px 4px 4px rgb(3, 3, 3);
   text-align: center;
-  letter-spacing: -0.1px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .experiences-section  {

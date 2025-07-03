@@ -26,7 +26,7 @@
   font-weight: 900;
   text-transform: uppercase;
   margin: 0 0 2rem;
-  text-shadow: 4px 4px 16px rgb(0, 0, 0);
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
 .projects_grid {
@@ -38,7 +38,7 @@
   background: #1a1a1a;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  box-shadow: 6px 6px 0px rgba(0,0,0,0.4);
   transition: transform 0.3s ease;
 }
 
@@ -59,26 +59,20 @@
 .project_content h3 {
   margin: 0.5rem 0;
   font-size: 1.25rem;
-  color: #fecc1b;
+  color: #40aca8;
+  font-weight: 900;
 }
 
-.project_content p {
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-  line-height: 1.4;
-}
-
-.project_content a {
+.project_content .see_project {
   display: inline-block;
   color: #fecc1b;
   font-weight: bold;
   text-decoration: none;
-  margin-bottom: 0.5rem;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
 }
 
-.project_content a:hover {
-  color: #fff;
+.project_content .see_project:hover {
+  color: white;
   text-decoration: underline;
 }
 

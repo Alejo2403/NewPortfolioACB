@@ -10,7 +10,7 @@ const Experiences = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="container_experiences">
+    <section id="experience" className="container_experiences">
       <h2>{t("section_exp")}</h2>
 
       <div className="experiences-section">

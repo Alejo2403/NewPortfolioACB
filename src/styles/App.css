@@ -1,5 +1,11 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; 
+}
+
 .container_main {
   margin: 32px;
+  padding-top: 30px;
 }
 
 .logo {
@@ -14,14 +20,12 @@ h1 {
   color: white;
   font-weight: 900;
   font-style: normal;
-  line-height: 40px;
-  font-size: 36px;
+  line-height: 2rem;
+  font-size: 1.8rem;
   margin-top: 24px;
 }
 h1 .text_zero {
   color: #fecc1b;
-  cursor: pointer;
-  
 }
 h1 .text_one {
   color: #3defe9;
@@ -33,8 +37,8 @@ h1 .text_two {
 
 p {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 31px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: rgb(200, 200, 200);
   margin: 24px 0;
   text-align: left;
@@ -67,8 +71,8 @@ p .text_five {
   background: black;
   border-radius: 50%;
   margin: 10px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -147,7 +151,7 @@ p .text_five {
 .buttons .button {
   position: relative;
   width: 100%;
-  height: 3.5rem;
+  height: 3rem;
   padding: 0;
   border: none;
   outline: none;
@@ -171,14 +175,13 @@ p .text_five {
   color: white;
   transition: 0.4s ease-in-out;
   position: absolute;  /* Para que se solape con el ícono */
-  font-weight: 600;
-  line-height: 24px;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .buttons .svg {
   position: absolute; /* Para superponerlo */
-  width: 2rem;
+  width: 1.5rem;
   opacity: 0;
   transform: translateY(-20px) rotate(30deg);
   transition: 0.4s ease-in-out;
@@ -250,4 +253,14 @@ p .text_five {
   60% { transform: rotate(10deg); }
   70% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
+}
+
+.icon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit; /* Usa el color del padre */
+  width: 100%;
+  height: 100%;
 }

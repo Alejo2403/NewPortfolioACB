@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
     <div className="navbar">
-      <img src="img/logo.png" alt="Logo" className="logo"/>
+      <a href="#about"><img src="img/logo.png" alt="Logo" className="logo"/></a>
 
       <div className="menu_container">
         <input type="checkbox" id="menu-toggle" className="menu-toggle" />
@@ -32,9 +32,10 @@ const NavBar = () => {
         </label>
 
         <ul className="menu-list">
-          <li>{t("nav_me")}</li>
-          <li>{t("nav_experience")}</li>
-          <li>{t("nav_contact")}</li>
+          <li><a href="#about">{t("nav_me")}</a></li>
+          <li><a href="#experience">{t("nav_experience")}</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">{t("nav_projects")}</a></li>
           <StyledWrapper>
             <label className="switch">
               <input defaultChecked type="checkbox" className="toggle" />
