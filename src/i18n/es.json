@@ -35,6 +35,10 @@
     "t_project_3": "CRM con IndexedDB",
     "t_project_4": "Seguros de Autos",
     "t_project_5": "Almacenamiento Local",
-    "b_see_p": "Ver Proyecto"
+    "b_see_p": "Ver Proyecto",
+    "nav_contactme": "Contáctame",
+    "t_contact": "Contáctame",
+    "desc_contact": "Abierto a nuevas oportunidades laborales. Contáctame si crees que encajo en tu equipo.",
+    "b_whatsapp": "Escríbeme por WhatsApp"
 }
 

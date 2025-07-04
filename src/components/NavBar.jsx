@@ -36,6 +36,7 @@ const NavBar = () => {
           <li><a href="#experience">{t("nav_experience")}</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">{t("nav_projects")}</a></li>
+          <li><a href="#contactme">{t("nav_contactme")}</a></li>
           <StyledWrapper>
             <label className="switch">
               <input defaultChecked type="checkbox" className="toggle" />

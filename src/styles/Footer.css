@@ -22,6 +22,7 @@
 .contactMe {
     max-width: 100%;
     margin: 0 32px;
+    gap: 1rem;
 }
 
 .copy {
@@ -44,34 +45,55 @@
     text-shadow: 4px 4px 16px rgb(255, 255, 255);
 }
 
-.whatsapp_btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: #25d366;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 30px;
-  font-weight: 600;
-  font-size: 1rem;
-  text-decoration: none;
-  transition: background-color 0.3s, transform 0.2s;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.whatsapp_btn:hover {
-  background-color: #1ebe5d;
-  transform: scale(1.03);
-}
-
-.whatsapp_btn img {
-  filter: brightness(0) invert(1);
-}
-
 .footer_location {
   font-size: .85rem;
   color: white;
+  margin: 1rem 0;
 }
 
+.contact_link {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  color: red;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-size: .85rem;
+}
 
+.contact_link:hover {
+  color: rgb(252, 137, 137);
+}
 
+.whatsapp_btn {
+  display: flex;
+  align-items: center;
+  color: #25D366;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: .85rem;
+  margin: 1rem 0;
+  transition: color 0.3s ease;
+}
+
+@media (min-width: 1098px) {
+  .contactMe {
+    margin: 0 85px;
+  }
+  .title_footer {
+    font-size: 1rem;
+  }
+  .whatsapp_btn {
+    font-size: 1rem;
+  }
+  .contact_link {
+    font-size: 1rem;
+  }
+  .footer_location {
+    font-size: 1rem;  
+  }
+  .footer_available{
+    font-size: 1rem;
+}
+}

@@ -106,4 +106,7 @@
   .projects_grid {
     margin: 0 50px;
   }
+  .projects_section h2 {
+    font-size: 36px;
+  }
 }
