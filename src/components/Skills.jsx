@@ -29,6 +29,7 @@ const Skills = () => {
       { name: "Git", icon: "git", level: t("level_int"), comp: "original" },
       { name: "GitHub", icon: "github", level: t("level_int"), comp: "original" },
       { name: "Postman", icon: "postman", level: t("level_int"), comp: "original" },
+      { name: "AWS", icon: "amazonwebservices", level: t("level_int"), comp: "original-wordmark" }
     ]
   }
 
